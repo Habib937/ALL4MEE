@@ -1,0 +1,49 @@
+li{
+    list-style: none;
+    margin: 30px;
+    font-size: 20px;
+    
+
+
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+nav{
+    display: flex;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h1{
+    color: indianred;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title{
+    font-size: 100px;
+    font-weight: 800;
+    color: crimson;
+}
+
+body{
+    background-color: azure;
+}
+
+.sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 768px) {
+
+    .flex{
+        flex-direction: column;
+    }
+    .sec{
+        flex-direction: column;
+    }
+}
